@@ -36,7 +36,8 @@ var removeDuplicates = function (s, k) {
       counter.pop();
     }
   }
-  console.log(stack);
+  //   console.log(stack);
+  return stack.join("");
 };
 
 removeDuplicates("deeedbbcccbdaa", 3);
