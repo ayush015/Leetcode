@@ -63,6 +63,8 @@ var removeElement = function (nums, val) {
 
 console.log(removeElement([3, 2, 2, 3], 3));
 
-// the time complexity will be the number of time
-// the element is present and log n
-//so O(val*logn)
+/*
+the time complexity will be the number of time the element 
+is present and log n 
+so O(val*logn)
+*/
